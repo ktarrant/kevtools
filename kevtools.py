@@ -18,8 +18,4 @@ mycaller.createCommandFunction("calendar-academic", \
 	calscripts.createAcademicCalendar)
 
 
-rval = mycaller.callFromArgument(sys.argv[1:])
-if rval is True:
-    print("Success!")
-else:
-    print(rval)
+mycaller.callFromArgument(sys.argv[1:])

@@ -63,7 +63,7 @@ def parseAndAdd(label, date, year, cal):
 
 def createAcademicCalendar(year, filename=""):
 	#cal = Calendar(filename)
-
+	year = int(year)
 	yearSuffix = year % 100
 	url = "http://www.provost.umd.edu/calendar/%d.html" % yearSuffix
 
@@ -98,4 +98,4 @@ def createAcademicCalendar(year, filename=""):
 
 
 
-#createAcademicCalendar(13, "UMD_2013_Calendar.csv")
+#createAcademicCalendar("13", "UMD_2013_Calendar.csv")
