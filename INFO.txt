@@ -1,0 +1,9 @@
+About kevtools
+
+These are some Python scripts I wrote to (a) get me more familiar with Python and (b) to try
+to automate some things that I wanted to do. It is a work in progress, and I believe the
+it-ebooks script no longer works because the website it downloaded ebooks from no longer
+uses the same format.
+
+Most of the coding I have done has been professional, and therefore I cannot share it because
+it is IP protected by an NDA.
