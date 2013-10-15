@@ -1,61 +1,34 @@
-import http.server
-import socketserver
+#import http.server
+#import socketserver
+import tornado.ioloop
+import tornado.web
+from os import walk
 
 
 PORT = 5000
 
-class HTMLPrinter:
-	""" Helps with the printing of HTML pages """
-
-	_fout = None
-
-	_indent_level = 0
-
-	def __init__(self, file_path):
-		self._fout = open(file_path, 'w')
-
-	def print_header(self):
-		self._fout.write(
-			"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\""+\
-			"\"http://www.w3.org/TR/html4/loose.dtd\">\n\n")
-		self._indent_level += 1
-		return self
-
-	def write(self, str):
-		self._fout.write('\t' * self._indent_level)
-		self._fout.write(str + '\n')
-		return self
-
-	def indent(self):
-		self._indent_level += 1
-		return self
-
-	def unindent(self):
-		self._indent_level -= 1
-		return self
-
-	def close(self):
-		self._fout.close()
+def getItems(path):
+	f = []
+	for (dirpath, dirnames, filenames) in walk(path):
+		f.extend(filenames)
+		break
+	return f
 
 
+class MainHandler(tornado.web.RequestHandler):
+	def get(self):
+		items = getItems("./server_data/")
+		self.render("index.html", title="kevtools", items=items)
 
-printer = HTMLPrinter('index.html')
 
-printer.print_header()
-printer.write("<html>").indent()
-printer.write("<head>").indent()
-printer.write("<title>kevtools</title>").unindent()
-printer.write("</head>")
-printer.write("<body>").indent()
-printer.write("<button>Test Button</button>").unindent()
-printer.write("</body>").unindent()
-printer.write("</html>")
+application = tornado.web.Application([
+	(r"/", MainHandler),
+])
 
-printer.close()
+def run_server():
+	application.listen(PORT)
+	print("listening on port %d" % PORT)
+	tornado.ioloop.IOLoop.instance().start()
 
-handler = http.server.SimpleHTTPRequestHandler
-
-httpd = socketserver.TCPServer(("", PORT), handler)
-
-print("serving at port", PORT)
-httpd.serve_forever()
+if __name__ == "__main__":
+	run_server()

@@ -5,6 +5,7 @@ from cmdline import CommandLineCaller
 import it_ebooks
 import download
 import calscripts
+import server
 
 
 mycaller = CommandLineCaller(sys.argv[0])
@@ -16,6 +17,7 @@ mycaller.createCommandFunction("download download-direct", \
 mycaller.createCommandFunction("download-indirect", download.downloadIndirect)
 mycaller.createCommandFunction("calendar-academic", \
 	calscripts.createAcademicCalendar)
+mycaller.createCommandFunction("run-server", server.run_server)
 
 
 mycaller.callFromArgument(sys.argv[1:])
