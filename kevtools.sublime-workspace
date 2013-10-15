@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"call",
+				"callFromArgument"
+			],
+			[
+				"flag",
+				"flag"
+			],
+			[
+				"print",
+				"printUsageHeader"
+			],
+			[
+				"printUsage",
+				"printUsageInformation"
+			],
+			[
+				"printf",
+				"printf	printf …"
+			],
+			[
+				"sz",
+				"sz	statement"
+			],
+			[
+				"file",
+				"fileObject"
+			],
+			[
+				"get",
+				"getUsageInformation	function"
+			],
+			[
+				"testFn",
+				"testFunction3	function"
+			],
+			[
+				"down",
+				"downloadIndirect	function"
+			],
+			[
+				"download",
+				"downloadEbook	function"
+			],
+			[
+				"downlo",
+				"downloadIndirect	import"
+			],
+			[
+				"downa",
+				"downloadAllEbooks"
+			],
+			[
+				"downl",
+				"downloadIndirect	function"
+			],
+			[
+				"file_size",
+				"file_size	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cmdline.py",
+			"settings":
+			{
+				"buffer_size": 5918,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Python33/Scripts/leapcast-script.py",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ktarrant/GitHub/kevtools/server.py",
+		"/C/Python33/Lib/http/server.py",
+		"/C/Users/ktarrant/GitHub/kevtools/index.html",
+		"/C/Users/ktarrant/GitHub/kevtools/cmdline.py",
+		"/C/Users/ktarrant/Documents/ENEE359R/HW2.txt",
+		"/C/Users/ktarrant/GitHub/kevtools/calscripts.py",
+		"/C/Users/ktarrant/GitHub/kevtools/kevtools.py",
+		"/C/Users/ktarrant/GitHub/kevtools/calendar.py",
+		"/C/Users/ktarrant/Documents/kevtools/cmdline.py",
+		"/C/Users/ktarrant/Documents/kevtools/calendar.py",
+		"/C/Users/ktarrant/Documents/kevtools/calscripts.py",
+		"/C/Users/ktarrant/Documents/kevtools/kevtools.py",
+		"/C/Users/ktarrant/Documents/ENEE359R/HW1/responses.txt",
+		"/C/Users/ktarrant/Documents/ENEE359R/C Project/main.c",
+		"/C/Users/ktarrant/Documents/Visual Studio 2012/Projects/ENEE359_C_Project/libelf_other/lib/32.getshdr.c",
+		"/C/Users/ktarrant/Documents/Visual Studio 2012/Projects/ENEE359_C_Project/libelf_other/lib/gelfshdr.c",
+		"/C/Users/ktarrant/Documents/Visual Studio 2012/Projects/ENEE359_C_Project/ENEE359_C_Project/main.c",
+		"/C/Users/ktarrant/Documents/kevtools/download.py",
+		"/C/Users/ktarrant/Documents/kevtools/it_ebooks.py",
+		"/C/Program Files (x86)/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ktarrant/Documents/kevtools/it-ebooks.py",
+		"/C/Program Files (x86)/SublimeText3/Data/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"RequestHandlerClass",
+			"server_address",
+			"RequestHandlerClass",
+			"PORT",
+			")\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cmdline.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Python33/Scripts/leapcast-script.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 212.0
+	},
+	"project": "kevtools.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
